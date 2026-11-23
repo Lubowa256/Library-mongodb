@@ -1,0 +1,19 @@
+{
+  "name": "library-mongodb",
+  "version": "1.0.0",
+  "description": "Library Management System - Database 2 (NoSQL) coursework: MongoDB backend, Node.js API, HTML/CSS/JS front end",
+  "main": "src/start.js",
+  "scripts": {
+    "start": "node src/start.js",
+    "seed": "node src/seed.js",
+    "test": "node --test test/api.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "mongodb": "^6.8.0"
+  },
+  "author": "Lubowa Rehoboam (25/BIT/BU/R/0009), Bugema University",
+  "license": "MIT"
+}
